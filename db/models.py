@@ -1,5 +1,3 @@
-from datetime import timezone
-
 from django.db import models
 
 class Race(models.Model):
