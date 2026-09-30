@@ -15,7 +15,7 @@ def main() -> None:
                 name=pdata.get("race").get("name"),
                 defaults={
                     "description": pdata.get("race").get("description")
-                    }
+                }
             )
 
             guild = None
